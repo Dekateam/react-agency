@@ -59,6 +59,30 @@ git checkout -b your-new-branch-name
 
 </div>
 
+- سپس از برنچ develop پول می کنید
+
+<div style="text-align:left; color: white; background-color: black">
+
+```bash
+
+git pull origin develop
+
+```
+
+</div>
+
+- سپس می توانید برنچ خودتان را روی گیت هاب ببرید
+
+<div style="text-align:left; color: white; background-color: black">
+
+```bash
+
+git push origin guideline
+
+```
+
+</div>
+
 - اگر بین شاخه شما و شاخه develop هرگونه تداخل ادغام وجود داشته باشد، شما نیاز خواهید داشت تا این تداخلات را قبل از ادامه ادغام حل کنید. بعد از حل تمامی تداخلات، شما می‌توانید ادغام را انجام دهید:
 
 <div style="text-align:left; color: white; background-color: black">
