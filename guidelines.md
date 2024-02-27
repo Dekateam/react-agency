@@ -40,7 +40,9 @@
 <div style="text-align:left; color: white; background-color: black">
 
 ```bash
+
 git checkout feature
+
 ```
 
 </div>
@@ -50,7 +52,9 @@ git checkout feature
 <div style="text-align:left; color: white; background-color: black">
 
 ```bash
+
 git checkout -b your-new-branch-name
+
 ```
 
 </div>
@@ -60,7 +64,9 @@ git checkout -b your-new-branch-name
 <div style="text-align:left; color: white; background-color: black">
 
 ```bash
+
 git commit -m "Merged NAME OF YOUR BRANCH into develop"
+
 ```
 
 </div>
