@@ -41,7 +41,6 @@
 
 ```bash
 git checkout feature
-
 ```
 
 </div>
@@ -51,8 +50,17 @@ git checkout feature
 <div style="text-align:left; color: white; background-color: black">
 
 ```bash
-git checkout feature
+git checkout -b your-new-branch-name
+```
 
+</div>
+
+- اگر بین شاخه شما و شاخه develop هرگونه تداخل ادغام وجود داشته باشد، شما نیاز خواهید داشت تا این تداخلات را قبل از ادامه ادغام حل کنید. بعد از حل تمامی تداخلات، شما می‌توانید ادغام را انجام دهید:
+
+<div style="text-align:left; color: white; background-color: black">
+
+```bash
+git commit -m "Merged NAME OF YOUR BRANCH into develop"
 ```
 
 </div>
