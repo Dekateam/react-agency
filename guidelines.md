@@ -89,7 +89,9 @@ git push origin guideline
 
 ```bash
 
-git commit -m "Merged NAME OF YOUR BRANCH into develop"
+[On branch develop]
+
+git merge YOUR-BRANCH
 
 ```
 
