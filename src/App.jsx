@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <p>Empty react App page</p>
+      <p> سلام جوجو</p>
     </>
   )
 }
