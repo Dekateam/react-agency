@@ -1,3 +1,23 @@
+/* Adding Vazir fonts */
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('./assets/fonts/Vazir-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Vazir-Medium.woff') format('woff');
+  /* font-weight: 500; */
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Vazir' !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1;
+  width: 100%;
+  min-height: 100vh;
+}
+
 /* Reset CSS */
 html,
 body,
@@ -104,11 +124,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-  width: 100%;
-  min-height: 100vh;
-}
 
 ol,
 ul {
