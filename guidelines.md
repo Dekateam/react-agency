@@ -93,6 +93,8 @@ git push origin guideline
 
 git merge YOUR-BRANCH
 
+git push
+
 ```
 
 </div>

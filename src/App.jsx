@@ -1,12 +1,13 @@
 
 import './App.css'
+import BasicTextFields from './components/test/test'
 
 function App() {
 
 
   return (
     <>
-      <p> سلام جوجو</p>
+      <BasicTextFields></BasicTextFields>
     </>
   )
 }
