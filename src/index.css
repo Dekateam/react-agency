@@ -1,21 +1,38 @@
 /* Adding Vazir fonts */
 
 @font-face {
-  font-family: 'Vazir';
-  src: url('./assets/fonts/Vazir-Medium.woff2') format('woff2'),
-    url('./assets/fonts/Vazir-Medium.woff') format('woff');
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Vazir-Medium.woff") format("woff");
   /* font-weight: 500; */
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Vazir-bold";
+  src: url("./assets/fonts/Vazir-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Vazir-Bold.woff") format("woff");
+  font-weight: 800;
+  font-style: bold;
+  font-display: swap;
+}
 
 body {
-  font-family: 'Vazir' !important;
+  font-family: "Vazir" !important;
   font-weight: 500;
   font-style: normal;
   line-height: 1;
   width: 100%;
   min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Vazir-bold" !important;
 }
 
 /* Reset CSS */
@@ -124,7 +141,6 @@ section {
   display: block;
 }
 
-
 ol,
 ul {
   list-style: none;
@@ -139,7 +155,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -150,4 +166,26 @@ table {
 
 body a {
   text-decoration: none;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 700;
 }
