@@ -1,13 +1,13 @@
 
 // import './App.css'
-import BasicTextFields from './components/test/test'
+import Footer from './components/footer/footer'
 
 function App() {
 
 
   return (
     <>
-      <BasicTextFields></BasicTextFields>
+    <Footer/>
     </>
   )
 }
