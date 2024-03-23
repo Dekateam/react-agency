@@ -1,12 +1,12 @@
 
-import './App.css'
+import Section from './components/section4/section'
 
 function App() {
 
 
   return (
     <>
-      <p>Empty react App page</p>
+    <Section/>
     </>
   )
 }
