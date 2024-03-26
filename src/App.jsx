@@ -1,13 +1,15 @@
 
 // import './App.css'
-import BasicTextFields from './components/test/test'
+
+import Section2 from "./components/home/section2"
 
 function App() {
 
 
   return (
     <>
-      <BasicTextFields></BasicTextFields>
+    <Section2/>
+      
     </>
   )
 }
