@@ -8,14 +8,15 @@ export default function TopSectionFooter() {
   return (
     <Grid
       container
-      xs={5}
+      xs={12}
       sx={{
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         paddingTop: "50px",
-        paddingBottom: "150px",
-        color: "white"
+        paddingBottom: { xs: "50px", lg: "150px" },
+        color: "white",
+        backgroundColor: "#454545",
       }}
     >
       <AvatarGroup
@@ -29,8 +30,8 @@ export default function TopSectionFooter() {
       </AvatarGroup>
       <Box sx={{ marginTop: "1rem" }}>
         <Typography
-          fontSize={"1.45rem"}
-          sx={{ display: "flex", justifyContent: "center" }}
+          variant="h6"
+          sx={{ display: "flex", justifyContent: "center"}}
         >
           داستان موفقیت آنها را بخوانید
         </Typography>
@@ -40,7 +41,10 @@ export default function TopSectionFooter() {
         >
           با همکاری ما
         </Typography>
-        <Typography fontSize={"0.55rem"} sx={{ marginTop: "1rem" }}>
+        <Typography
+          fontSize={"0.55rem"}
+          sx={{ marginTop: "1rem", display: "flex", justifyContent: "center",padding:"0px 50px" }}
+        >
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
           ستون و سطرآنچنان که لازم است،
@@ -49,10 +53,22 @@ export default function TopSectionFooter() {
       <Box
         sx={{ display: "flex", justifyContent: "center", marginTop: "1rem" }}
       >
-        <Button variant="contained" sx={{backgroundColor:"#4187AE", "&:hover":{backgroundColor:"ButtonShadow", color:"black"}}}>بیشتر بدانید</Button>
         <Button
           variant="contained"
-          sx={{ marginLeft: "1rem", backgroundColor: "#808080" ,"&:hover":{backgroundColor:"azure", color:"black"}}}
+          sx={{
+            backgroundColor: "#4187AE",
+            "&:hover": { backgroundColor: "ButtonShadow", color: "black" },
+          }}
+        >
+          بیشتر بدانید
+        </Button>
+        <Button
+          variant="contained"
+          sx={{
+            marginLeft: "1rem",
+            backgroundColor: "#808080",
+            "&:hover": { backgroundColor: "azure", color: "black" },
+          }}
         >
           نظر شما
         </Button>

@@ -15,7 +15,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import WifiCalling3Icon from "@mui/icons-material/WifiCalling3";
-// import img from "../../../public/images/Artboard.png"
+import img from "../../../public/images/Artboard.png";
 
 const Details = () => {
   return (
@@ -26,24 +26,33 @@ const Details = () => {
         sx={{
           color: "white",
           backgroundColor: "#113143",
-          paddingTop: "50px",
+          paddingTop: { xs: "50px", lg: "250px" },
           paddingLeft: "50px",
-          paddingTop:"250px"
         }}
       >
         <Grid xs={3} sx={{ paddingRight: "50px" }}>
-          <Box>
-            <img src="url('../../../public/images/Artboard.png')" />
-            <Typography fontSize={"1rem"} fontWeight={"bold"}>
+          <Box display={"flex"} justifyContent={"end"} flexDirection={"column"}>
+            <Box
+              component={"img"}
+              sx={{ width: "70%", height: "70%" }}
+              src={img}
+              alt="not loading..."
+              display={"flex"}
+              justifyContent={"end"}
+              alignItems={"top"}
+              marginLeft={"-50px"}
+              marginTop={"-50px"}
+            />
+            <Typography variant="h4" marginTop={"10px"}>
               DEKA TEAM
             </Typography>
             <Typography fontSize={"0.85rem"}>Best Agency in Iran</Typography>
             <Typography
-              sx={{ marginTop: "20px", color: "grey", fontSize: "0.75rem" }}
+              sx={{ marginTop: "20px", color: "grey", fontSize: "1rem" }}
             >
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
               استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
-              در ستون و سطرآنچنان که لازم است.
+              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
             </Typography>
           </Box>
           <Box>
