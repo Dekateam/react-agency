@@ -1,13 +1,14 @@
 
 // import './App.css'
-import BasicTextFields from './components/test/test'
+
+import Navbar from "./components/navbar/navbar"
 
 function App() {
 
 
   return (
     <>
-      <BasicTextFields></BasicTextFields>
+    <Navbar/>
     </>
   )
 }
