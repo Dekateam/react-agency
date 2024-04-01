@@ -195,6 +195,11 @@ function Navbar2() {
                 <MenuItem LinkComponent={"/"}>بلاگ</MenuItem>
               </ListItem>
             </List>
+            <List>
+              <menu>
+              <Button variant="outlined">ارتباط با ما</Button>
+              </menu>
+            </List>
           </Box>
 
         </Toolbar>
