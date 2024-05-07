@@ -1,9 +1,7 @@
-
-// import './App.css'
+import Section2 from "./components/home/section2"
 import Footer from './components/footer/footer'
-
-// import BasicTextFields from './components/section/test'
 import Section4 from "./components/section/section4"
+
 
 
 function App() {
@@ -12,9 +10,11 @@ function App() {
   return (
     <>
 
+    <Section2/>
     <Section4/>
     <Footer/>
     
+
     </>
 
   )
