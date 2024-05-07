@@ -1,4 +1,3 @@
-// import { Grid } from "@mui/material"
 import { List, ListItem } from "@mui/material"
 import Grid from "@mui/material/Unstable_Grid2/Grid2"
 import img1 from "../../../public/images/images.png"
