@@ -1,7 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import TextAboutSection from "./TextAboutSection";
-import image from "../../assets/images/image.png";
-import circleElements from "../../assets/images/circleElements.png";
+import image from "../../../public/images/developer.jpg";
+import circleElements from "../../../public/images/developer.jpg";
 
 export default function SubAboutSection() {
   // const dotHeight = window.innerWidth < 500 ? "100px " : "auto";
