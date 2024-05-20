@@ -1,6 +1,6 @@
+import { Box , Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import largeImg from "../../../public/images/developer.jpg";
-import { Box, Typography } from "@mui/material";
 
 const Gallery = () => {
   return (
